@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+h1{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+
+}
+nav{
+    background-color: rgb(194, 191, 191);
+    color: white;
+    padding: 0%;
+    text-align: center;
+}
+nav ul{
+
+    margin: 0;
+    padding: 0;
+}
+nav ul li{
+    display: inline;
+    padding: 10px;
+}
+h2{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background-color: lab(58.21% -49.78 28.77);
+    color: rgb(255, 255, 255);
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+h3{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background-color: rgb(68, 199, 79);
+   color: rgb(255, 255, 255);
+}
+table, th, td{
+    border: 1px solid rgb(0, 0, 0);
+    padding: 10px;
+    text-align: center;
+}
