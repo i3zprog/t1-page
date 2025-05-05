@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>منصة التدريب</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <header>
+            <h1>منصة عبد الرحمن للتدريب التفاعلي</h1>
+            <div class="buttons">
+                <button onclick="welcomeButton()">اضغط هنا للترحيب</button> 
+                <button onclick="randommsg()">عرض رساله في الكونسول</button>
+                <button onclick="myinfo()">عرض معلوماتي </button>
+            </div>
+        </header>
+    </header>
+    <section id="about">
+        <h2>عن المدرب</h2>
+        <div class="trainer-info">
+            <img src="capture_250428_064201.png" alt="صورة المدرب">
+            <p>أنا عبد الرحمن الأحمد، مدرب معتمد في تطوير الويب وتحليل البيانات. أقدم برامج تدريبية عبر الإنترنت بطرق تفاعلية وعملية.</p>
+        </div>
+    </section>
+    <section id="courses">
+        <h2>الدورات المتاحة</h2>
+        <div class="courses">
+            <div class="course">
+                <h3>مقدمة في HTML وCSS</h3>
+                <p>تعلم أساسيات تصميم صفحات الويب من الصفر.</p>
+            </div>
+            <div class="course">
+                <h3>تحليل البيانات باستخدام Excel</h3>
+                <p>أهم المهارات لتحليل البيانات وتقديم التقارير.</p>
+            </div>
+            <div class="course">
+                <h3>مقدمة في JavaScript</h3>
+                <p>برمجة الويب وإضافة التفاعلية للمواقع.</p>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>تواصل معي</h2>
+        <form>
+            <p>الاسم: عبدالرحمن الأحمد</p>
+            <p>البريد الالكتروني: <a href="mailto:i3zprog@gmail.com">abdulrhman@gmail.com</a></p>
+            <label for="message">الرسالة:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">إرسال</button>
+        </form>
+    </section>
+    <footer>
+        <p>تابعوني على:</p>
+        <ul>
+            <li><a href="#">لينكدإن</a></li>
+            <li><a href="#">يوتيوب</a></li>
+        </ul>
+    </footer>
+</body>
+</html>

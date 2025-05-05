@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif; /* تحديد نوع الخط */
+    line-height: 1.6; /* ضبط ارتفاع السطر لتحسين القراءة */
+    margin: 0; /* إزالة الهوامش الافتراضية */
+    padding: 0; /* إزالة الحشوات الافتراضية */
+    direction: rtl; /* تحديد اتجاه النص من اليمين إلى اليسار */
+    text-align: right; /* محاذاة النص إلى اليمين */
+}
+
+header {
+    background: #333; /* لون خلفية الرأس */
+    color: #ffffff; /* لون النص */
+    padding: 10px 20px; /* إضافة حشوات داخلية */
+    text-align: center; /* محاذاة النص إلى المنتصف */
+}
+
+header h1 {
+    margin: 0; /* إزالة الهوامش الافتراضية */
+}
+
+nav a {
+    color: #fff; /* لون الروابط */
+    margin: 0 10px; /* إضافة مسافة بين الروابط */
+    text-decoration: none; /* إزالة الخط السفلي من الروابط */
+}
+
+section {
+    padding: 20px; /* إضافة حشوات داخلية */
+    border-bottom: 1px solid #ddd; /* إضافة خط سفلي خفيف */
+}
+
+.trainer-info {
+    text-align: center; /* جعل النصوص والصورة في المنتصف */
+}
+
+.trainer-info img {
+    display: block; /* جعل الصورة عنصر كتلة */
+    margin: 0 auto; /* جعل الصورة في المنتصف أفقياً */
+    width: 150px; /* تحديد عرض الصورة */
+    height: 150px; /* تحديد ارتفاع الصورة */
+    border-radius: 50%; /* جعل الصورة دائرية */
+    background: #ffffff; /* لون خلفية افتراضي للصورة */
+    border: 2px solid #ddd; /* إضافة إطار خفيف حول الصورة */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1.1); /* إضافة ظل خفيف للصورة */
+}
+
+.trainer-info p {
+    margin-top: 10px; /* إضافة مسافة بين الصورة والنص */
+}
+
+.courses {
+    display: flex; /* استخدام تخطيط مرن لعرض العناصر بجانب بعضها */
+    gap: 20px; /* إضافة مسافة بين العناصر */
+    justify-content: space-around; /* توزيع العناصر بالتساوي */
+    
+}
+
+.course {
+    border: 1px solid #ddd; /* إضافة إطار خفيف حول كل دورة */
+    padding: 10px; /* إضافة حشوات داخلية */
+    width: 30%; /* تحديد عرض كل عنصر */
+    text-align: center; /* محاذاة النصوص إلى المنتصف */
+ 
+}
+
+form {
+    display: flex; /* استخدام تخطيط مرن */
+    flex-direction: column; /* ترتيب العناصر عمودياً */
+    gap: 10px; /* إضافة مسافة بين عناصر النموذج */
+}
+
+form input, form textarea, form button {
+    padding: 10px; /* إضافة حشوات داخلية */
+    border: 1px solid #ddd; /* إضافة إطار خفيف */
+    border-radius: 5px; /* جعل الزوايا مستديرة */
+}
+
+footer {
+    background: #333; /* لون خلفية التذييل */
+    color: #fff; /* لون النص */
+    text-align: center; /* محاذاة النص إلى المنتصف */
+    padding: 10px 0; /* إضافة حشوات داخلية */
+}
+
+footer ul {
+    list-style: none; /* إزالة النقاط من القائمة */
+    padding: 0; /* إزالة الحشوات الافتراضية */
+}
+
+footer ul li {
+    display: inline; /* عرض العناصر بجانب بعضها */
+    margin: 0 10px; /* إضافة مسافة بين العناصر */
+}
+
+.buttons {
+    text-align: center; /* جعل الأزرار في المنتصف */
+    margin-top: 10px; /* إضافة مسافة بين العنوان والأزرار */
+    
+}
+
+.buttons button {
+    background-color: #812222; /* لون خلفية الزر */
+    color: #000000; /* لون النص داخل الزر */
+    border: none; /* إزالة الإطار الافتراضي */
+    padding: 10px 20px; /* إضافة حشوات داخلية */
+    margin: 5px; /* إضافة مسافة بين الأزرار */
+    border-radius: 5px; /* جعل الزوايا مستديرة */
+    cursor: pointer; /* تغيير المؤشر عند التمرير فوق الزر */
+    font-size: 16px; /* حجم الخط داخل الزر */
+    transition: background-color 0.3s ease; /* إضافة تأثير انتقال سلس عند التغيير */    
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* إضافة ظل خفيف للزر */
+    transform: scale(1); /* تعيين حجم الزر الافتراضي */
+}
+
+.buttons button:hover {
+    background-color: #fafafa; /* تغيير لون الخلفية عند التمرير */
+    color: #000000; /* تغيير لون النص عند التمرير */
+    transition: background-color 0.3s ease; /* إضافة تأثير انتقال سلس عند التغيير */
+    transform: scale(1.05); /* تكبير الزر قليلاً عند التمرير */
+}
